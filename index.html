@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les bases du web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <img src="img/avatar.png" alt="Avatar" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+            <ul>
+                <li><a href="#">À propos</a></li>
+                <li class="active"><a href="#">Bases du Web</a></li>
+                <li><a href="#">Plan d'apprentissage</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Les bases du web par Stéphane</h1>
+        <p class="subtitle">Une page pour concentrer les informations clés du Web et du développement !</p>
+    </header>
+
+    <section id="course">
+        <h2>Cours suivi</h2>
+        <a href="https://openclassrooms.com/fr/courses/1946386-comprendre-le-web" target="_blank">
+            <img src="img/cours.png" alt="Cours Comprendre le web" />
+        </a>
+    </section>
+
+    <section id="concepts">
+        <h2>Concepts clés</h2>
+        <div class="flex">
+            <article class="card">
+                <h3>Partie 1 - Découvrez le web et ses origines</h3>
+                <div class="dropdown">
+                    <h4>Web</h4>
+                    <p>Définition :</p>
+                    <p>Comme une toile d'araignée, avec ses nombreux fils connectés, le web est un ensemble de pages, accessibles depuis un lien hypertexte comme ceci.</p>
+                    <p>Le lien hypertexte est probablement la plus grande invention à la base du Web. Le fait d'être sur une page et de cliquer sur un mot, ou même une image, pour en voir une autre vous paraît peut-être basique aujourd'hui, mais c'est la base d'une vraie révolution !</p>
+                    <p>Au fait, avez-vous déjà regardé de près un lien hypertexte ?</p>
+                    <p>Voici celui de la page d'accueil de Google : <a href="https://www.google.fr">www.google.fr</a>. Le « www » que vous voyez présent dans de nombreuses adresses signifie World Wide Web, soit « toile mondiale ».</p>
+                    <p>Grâce aux liens hypertexte, chaque page sur le web est liée à d'autres pages. Par exemple, la page d'accueil d'OpenClassrooms fait des liens vers des cours, vers la page de connexion aux comptes, etc. De même, quand vous faites une recherche sur Google, quel est le résultat ? Des liens vers plein de sites !</p>
+                    <p>Un autre exemple : <strong>Wikipédia</strong>. Quand vous consultez une page Wikipédia, il est fréquent d'avoir des liens vers d'autres articles, qui eux-mêmes pointent vers d'autres articles et ainsi de suite.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Internet</h4>
+                    <p>Définition :</p>
+                    <p>Internet, c'est le réseau qui permet de communiquer entre ordinateurs. Sur ce réseau, on trouve plusieurs services :</p>
+                    <p>Le Web (le plus connu d'entre eux) : vous ouvrez un navigateur web pour y aller, comme Google Chrome, Firefox, Internet Explorer, Edge, Safari...</p>
+                    <ul>
+                        <li>Les e-mails : pour échanger des messages. Il s'agit tout simplement de courrier électronique.</li>
+                        <li>Les newsgroups : moins connus, ils sont l'ancêtre des forums et permettent de discuter à plusieurs en postant des messages.</li>
+                        <li>Le FTP : un moyen d'échanger des fichiers entre ordinateurs.</li>
+                        <li>Etc.</li>
+                    </ul>
+                    <p>On confond souvent le Web avec le reste, car tous ces services convergent vers le Web. Par exemple auparavant, on utilisait obligatoirement un logiciel dédié pour les e-mails (Mozilla Thunderbird, Apple Mail, Outlook...). Si ces logiciels existent toujours, aujourd'hui, on passe par le Web pour accéder à ses e-mails ! On va sur le site de Gmail, par exemple.</p>
+                    <p>Le Web sert donc de porte d'entrée à la plupart des services aujourd'hui.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Le Cloud</h4>
+                    <p>Définition :</p>
+                    <p>On parle souvent de Cloud... qu'est-ce que cela signifie concrètement ? Ce n'est pas évident, car c'est un terme (très) utilisé en marketing. Essayons d'y voir plus clair !</p>
+                    <p>Comme pour le mot web, « Cloud » est un mot en anglais qui signifie « nuage ». Ceci nous donne un indice : imaginez un nuage dans le ciel, capable de maintenir de l'eau et de la relâcher sous forme de pluie à n'importe quel endroit.</p>
+                    <p>Le « cloud » informatique opère de façon similaire, mais il conserve plutôt vos données et services. Prenons l'exemple de vos photos. Lorsque vous les stockez dans le cloud, vous évitez de les garder en local sur votre ordinateur. Le cloud est accessible de partout avec une connexion internet et s'adapte à vos besoins : quand vous avez besoin de plus d'espace de stockage, il s'agrandit, évoquant ainsi la forme changeante d'un nuage.</p>
+                    <p>Le cloud est composé des fameux services fournis via une interface web dont je vous parlais ci-dessus. Par exemple, on pourrait dire que Gmail est un service d'email sur le Cloud.</p>
+                    <p>Vous utilisez chaque jour des services cloud :</p>
+                    <ul>
+                        <li>Des services d'email : Gmail, Outlook, etc.</li>
+                        <li>Des services de stockage de documents : Dropbox, Google Drive par exemple ;</li>
+                        <li>Des services de messagerie : Slack, Discord, Messenger ;</li>
+                        <li>Etc.</li>
+                    </ul>
+                    <p>Le Web sert alors de passerelle à de nombreux services, sous la dénomination « cloud ».</p>
+                </div>
+                <div class="dropdown">
+                    <h4>W3C</h4>
+                    <p>Définition :</p>
+                    <p>Création en 1994 du World Wide Web Consortium ou W3C, un organisme qui a pris le relais de Tim Berners-Lee pour faire évoluer les technologies du web (HTML, CSS, PNG, XML et autres noms barbares).</p>
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 2 - Distinguez les langages du Web</h3>
+                <div class="dropdown">
+                    <h4>Langages client</h4>
+                    <p>Définition</p>
+                    <p>Les langages client servent à fournir des informations de base pour la construction des sites web. C'est un peu comme des plans d'architecte. Ces langages sont principalement :</p>
+                    <ul>
+                        <li>HTML, qui permet de renseigner le contenu du site (textes ou images...) ;</li>
+                        <li>CSS, qui permet de définir le visuel du site (les couleurs, la police, les tailles...);</li>
+                        <li>JavaScript, qui permet d'ajouter de l'interaction sur le site (menus déroulants, affichage de messages lors de la validation de formulaires...).</li>
+                    </ul>
+                    <p>Ces trois langages sont désormais indispensables à la réalisation de tous les sites web. On dit que ce sont des langages client ou encore des langages frontend, car ils sont lus par les machines des clients à travers les navigateurs web.</p>
+                    <p>Nous n'apprendrons pas à nous en servir dans ce cours, mais vous pourrez enchaîner avec d'autres cours accessibles aux débutants si vous voulez vous entraîner à les utiliser !</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Navigateurs</h4>
+                    <p>Définition</p>
+                    <p>Pour accéder aux sites web, on a besoin de navigateurs web. Il existe notamment :</p>
+                    <ul>
+                        <li>Google Chrome</li>
+                        <li>Mozilla Firefox</li>
+                        <li>Edge (le successeur d'Internet Explorer)</li>
+                        <li>Safari</li>
+                    </ul>
+                    <p>Le rôle des navigateurs est de traduire les langages HTML, CSS et JavaScript sous la forme de sites web utilisables par tout le monde.
+                </div>
+                <div class="dropdown">
+                    <h4>Langages serveur</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Frameworks</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Bases de données</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Site responsive</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Application mobile</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 3 - Découvrez le fonctionnement du réseau</h3>
+                <div class="dropdown">
+                    <h4>Serveurs</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Adresse IP</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Nom d’hôte et DNS</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Protocoles</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 4 - Identifiez les métiers du web</h3>
+                <div class="dropdown">
+                    <h4>Développeurs</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Product Managers et chefs de projets</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Designers</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Testeurs</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+                <div class="dropdown">
+                    <h4>Techniciens informatique</h4>
+                    <p>Définition</p> <!-- Renseignez la définition -->
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="languages">
+        <h2>Langages de développement web</h2>
+        <div class="slider">
+            <div class="slider-content">
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/html.png" alt="HTML" />
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>Squelette du site Web. Il définit la structure de  base du contenu, comme les titres, les paragraphes, les images, etc.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/css.png" alt="CSS" />
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>Définition</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/js.png" alt="JavaScript" />
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>Définition</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="" alt="JavaScript" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Définition</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="" alt="PHP" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Définition</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="" alt="Java" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>Java</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Définition</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="" alt="Python" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>Python</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Définition</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="" alt="C#" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>C#</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Définition</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="" alt="SQL" /> <!-- Renseignez entre les guillements de src=“” le lien de l’image -->
+                        <h3>SQL</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Bases de données</p>
+                        <p>Définition</p> <!-- Renseignez la définition -->
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="slider-arrows">
+            <img src="img/left.png" alt="Gauche" id="left" />
+            <img src="img/right.png" alt="Droite" id="right" />
+        </div>
+    </section>
+
+    <section id="tools">
+        <h2>Boîte à outils du développeur</h2>
+        <ul class="card">
+            <li><strong>IDE comme VS Code</strong> : Définition <!-- Renseignez la définition --></li>
+            <li><strong>Github</strong> : Définition <!-- Renseignez la définition --></li>
+            <li><strong>Librairies / bibliothèques</strong> : Définition <!-- Renseignez la définition --></li>
+            <li><strong>Frameworks</strong> : Définition + 3  exemples avec le langage associé <!-- Renseignez la définition --></li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
