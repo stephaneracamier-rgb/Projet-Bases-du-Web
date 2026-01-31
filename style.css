@@ -160,13 +160,9 @@ h3 {
     content: '▾';
 }
 
-.dropdown.open p {
+.dropdown.open p, ul {
     display: block;
-}
-
-.dropdown.open ul {
-    display: block;
-/* dropdown.open avec 2 balises (P, UL) ne fonctionne jamais que pour la première des deux */    
+    /* La double application du Display : block; sur les balises UL et P entraînent des problèmes d'affichage permanent des listes à puce */
 }
 
 .slider {
