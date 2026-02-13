@@ -8,7 +8,7 @@ html, body {
 }
 
 a {
-    color: blue;
+    color: #0053A7;
     text-decoration: underline;
     /* Modification de la Couleur et du Surlignage des liens */
 }
@@ -62,7 +62,7 @@ nav#main-nav a {
 
 header {
     background: #FFD700;
-    color: #F8F8F8;
+    color: #0053A7;
     height: 453px;
 /*Modification couleur fond Background Header*/
 }
@@ -105,7 +105,7 @@ section#course {
 }
 
 #course h2 {
-    color: #F8F8F8;
+    color: #0053A7;
 }
 
 .flex {
@@ -116,7 +116,7 @@ section#course {
 .card {
     background: #FFFFFF;
     padding: 16px;
-    border: solid 2px blue;
+    border: solid 2px #0053A7;
     border-radius: 10px;
 }
 
